@@ -6,3 +6,6 @@ NEMO 4.2 offered an idealized configuration for testing iceberg dynamics and the
 However, at some point NEMO switched to modified leapfrog timestepping. As a result, the ocean dynamics and thermodynamics in the ICB test configuration were no longer fixed in time.
 
 The updated ICB configuration provided here allows the NEMO user to hold the ocean state constant while testing iceberg code.
+
+
+Financial support for this work is provided by the OCEAN:ICE project. OCEAN:ICE is co-funded by the European Union, Horizon Europe Funding Programme for research and innovation under grant agreement Nr. 101060452 and by UK Research and Innovation.
