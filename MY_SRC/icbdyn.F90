@@ -378,6 +378,7 @@ CONTAINS
          zvs = 0.5_wp * ( zvveln + pvvel )
          zdrag_ocn = z_ocn * SQRT( (zus-zuo)*(zus-zuo) + (zvs-zvo)*(zvs-zvo) )
          zdrag_atm = z_atm * SQRT( (zus-zua)*(zus-zua) + (zvs-zva)*(zvs-zva) )
+         zdrag_atm = 0._wp ! Set to 0 for test purposes
          zdrag_ice = z_ice * SQRT( (zus-zui)*(zus-zui) + (zvs-zvi)*(zvs-zvi) )
          !
          ! Explicit accelerations

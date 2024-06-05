@@ -375,7 +375,7 @@ CONTAINS
                localpt%mass_of_bits = 0._wp
                localpt%heat_density = 0._wp
                localpt%uvel = 0._wp
-               localpt%vvel = 0._wp
+               localpt%vvel = 0.1401_wp
                localpt%kb   = 1
                CALL icb_utl_incr()
                localberg%number(:) = num_bergs(:)
